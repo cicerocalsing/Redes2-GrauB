@@ -28,6 +28,8 @@ A implementação simula o comportamento de múltiplos transmissores tentando ac
 | `canal.txt` | Representação do estado atual do canal (livre ou ocupado) |
 | `log_transmissao.txt` | Registro detalhado de todos os eventos da simulação |
 | `estatisticas.txt` | Estatísticas finais, como tempo de simulação, uso do canal, colisões por transmissor, etc |
+| `Testes_realizados.xlsx` | Registros dos resultados dos testes de 15 execuções realizadas que foram analisadas |
+| `Analise_desempenho.ipynb` | Este arquivo contém as análises realisadas com os resultados dos testes de execução |
 | `README.md` | Este arquivo de documentação |
 
 ## 🚀 Como executar a simulação

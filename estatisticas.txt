@@ -1,17 +1,13 @@
-Tempo total da simulação: 103.04 segundos
-Tempo total de transmissão (canal ocupado): 22.14 segundos
-Tempo ocioso (canal livre): 80.90 segundos
-Desempenho de transmissão (uso do canal): 21.49%
+Tempo total da simulação: 24.44 segundos
+Tempo total de transmissão (canal ocupado): 20.90 segundos
+Tempo ocioso (canal livre): 3.54 segundos
+Desempenho de transmissão (uso do canal): 85.53%
 
-Total de colisões: 7
+Total de colisões: 0
 Colisões por transmissor:
- - T3: 1 colisões
- - T1: 3 colisões
- - T2: 2 colisões
- - T4: 1 colisões
 
 Tentativas por transmissor:
- - T1: 27 tentativas
- - T2: 24 tentativas
- - T3: 16 tentativas
- - T4: 27 tentativas
+ - T1: 32 tentativas
+ - T2: 36 tentativas
+ - T3: 24 tentativas
+ - T4: 18 tentativas

@@ -8,7 +8,7 @@ CAMINHO_CANAL = "canal.txt"
 LOG_FILE = "log_transmissao.txt"
 STATS_FILE = "estatisticas.txt"
 
-NUM_THREADS = 20
+NUM_THREADS = 4
 PACOTES_POR_THREAD = 5
 TEMPO_TRANSMISSAO_MIN = 0.5
 TEMPO_TRANSMISSAO_MAX = 1.5

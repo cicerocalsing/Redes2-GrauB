@@ -58,6 +58,21 @@ python csma_cd_simulation.py
 - Se duas transmissões ocorrerem simultaneamente, ocorre **colisão**, e os transmissores envolvidos realizam um **backoff exponencial truncado**.
 - Transmissões bem-sucedidas e colisões são registradas nos arquivos de log e estatísticas.
 
+
+## ⚙️ Parâmetros Configuráveis
+
+Os seguintes parâmetros da simulação podem ser alterados diretamente no arquivo `csma_cd_simulation.py`:
+
+```python
+NUM_THREADS = 4               # Número de transmissores simultâneos
+PACOTES_POR_THREAD = 5        # Quantidade de pacotes enviados por transmissor
+TEMPO_TRANSMISSAO_MIN = 0.5   # Tempo mínimo de transmissão (em segundos)
+TEMPO_TRANSMISSAO_MAX = 1.5   # Tempo máximo de transmissão (em segundos)
+```
+
+Essas variáveis permitem ajustar a carga de transmissão e o comportamento de temporização para diferentes cenários de teste.
+
+
 ## 📊 Estatísticas geradas
 
 Ao final da execução, o arquivo `estatisticas.txt` trará informações como:

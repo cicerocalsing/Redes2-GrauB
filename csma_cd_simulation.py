@@ -8,7 +8,7 @@ CAMINHO_CANAL = "canal.txt"
 LOG_FILE = "log_transmissao.txt"
 STATS_FILE = "estatisticas.txt"
 
-NUM_THREADS = 4
+NUM_THREADS = 20
 PACOTES_POR_THREAD = 5
 TEMPO_TRANSMISSAO_MIN = 0.5
 TEMPO_TRANSMISSAO_MAX = 1.5
@@ -81,7 +81,7 @@ def transmitir(id_thread):
                     escrever_canal("LIVRE")
                     backoff(tentativa, id_thread)
             else:
-                log(f"[{id_thread}] ❌ Meio ocupado, aguardando...")
+                log(f"[{id_thread}] ❌ Canal ocupado, aguardando...")
                 time.sleep(0.5)
 
         tempo_espera_entre_pacotes = random.uniform(0.3, 0.8)

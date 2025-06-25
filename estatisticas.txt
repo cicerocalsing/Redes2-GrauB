@@ -1,13 +1,49 @@
-Tempo total da simulação: 24.44 segundos
-Tempo total de transmissão (canal ocupado): 20.90 segundos
-Tempo ocioso (canal livre): 3.54 segundos
-Desempenho de transmissão (uso do canal): 85.53%
+Tempo total da simulação: 214.23 segundos
+Tempo total de transmissão (canal ocupado): 98.60 segundos
+Tempo ocioso (canal livre): 115.62 segundos
+Desempenho de transmissão (uso do canal): 46.03%
 
-Total de colisões: 0
+Total de colisões: 53
 Colisões por transmissor:
+ - T14: 4 colisões
+ - T11: 3 colisões
+ - T1: 4 colisões
+ - T10: 2 colisões
+ - T15: 2 colisões
+ - T6: 5 colisões
+ - T5: 5 colisões
+ - T18: 5 colisões
+ - T13: 3 colisões
+ - T19: 1 colisões
+ - T12: 2 colisões
+ - T7: 1 colisões
+ - T8: 2 colisões
+ - T2: 2 colisões
+ - T20: 3 colisões
+ - T9: 2 colisões
+ - T4: 1 colisões
+ - T16: 3 colisões
+ - T17: 1 colisões
+ - T3: 2 colisões
 
 Tentativas por transmissor:
- - T1: 32 tentativas
- - T2: 36 tentativas
- - T3: 24 tentativas
- - T4: 18 tentativas
+ - T1: 30 tentativas
+ - T2: 59 tentativas
+ - T3: 65 tentativas
+ - T4: 59 tentativas
+ - T5: 66 tentativas
+ - T6: 68 tentativas
+ - T7: 50 tentativas
+ - T8: 76 tentativas
+ - T9: 58 tentativas
+ - T10: 42 tentativas
+ - T11: 45 tentativas
+ - T12: 47 tentativas
+ - T13: 59 tentativas
+ - T14: 40 tentativas
+ - T15: 22 tentativas
+ - T16: 92 tentativas
+ - T17: 63 tentativas
+ - T18: 56 tentativas
+ - T19: 50 tentativas
+ - T20: 70 tentativas
